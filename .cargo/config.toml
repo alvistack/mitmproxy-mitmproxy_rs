@@ -1,2 +1,9 @@
-[env]
-WINDIVERT_PATH = { value = "windows-redirector/windivert/", relative = true }
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/mhils/internet-packet.git"]
+git = "https://github.com/mhils/internet-packet.git"
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
