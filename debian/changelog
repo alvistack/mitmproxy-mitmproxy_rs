@@ -1,0 +1,5 @@
+python-mitmproxy-rs (100:0.2.2-1) UNRELEASED; urgency=medium
+
+  * https://github.com/mitmproxy/mitmproxy_rs/releases/tag/0.2.2
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Thu, 10 Aug 2023 11:33:57 +0800
