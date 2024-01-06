@@ -1,0 +1,5 @@
+python-mitmproxy-rs source: file-without-copyright-information
+python-mitmproxy-rs source: no-debian-changes
+python-mitmproxy-rs source: source-contains-prebuilt-windows-binary
+python-mitmproxy-rs source: source-is-missing
+python-mitmproxy-rs source: source-package-encodes-python-version
