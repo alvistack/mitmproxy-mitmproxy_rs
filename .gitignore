@@ -8,3 +8,5 @@ __pycache__/
 *.xcuserstate
 editable.marker
 *.DS_Store
+vendor/
+.pybuild/
