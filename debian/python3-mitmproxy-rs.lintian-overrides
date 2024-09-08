@@ -1,0 +1,4 @@
+python3-mitmproxy-rs: copyright-without-copyright-notice
+python3-mitmproxy-rs: initial-upload-closes-no-bugs
+python3-mitmproxy-rs: no-manual-page
+python3-mitmproxy-rs: zero-byte-file-in-doc-directory
