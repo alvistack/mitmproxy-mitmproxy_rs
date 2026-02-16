@@ -1,14 +1,15 @@
-[env]
-WINDIVERT_PATH = { value = "mitmproxy-windows/mitmproxy_windows/", relative = true }
+[source.crates-io]
+replace-with = "vendored-sources"
 
-[target.x86_64-apple-darwin]
-rustflags = [
-  "-C", "link-arg=-undefined",
-  "-C", "link-arg=dynamic_lookup",
-]
+[source."git+https://github.com/cloudflare/boringtun?rev=e3252d9c4f4c8fc628995330f45369effd4660a1"]
+git = "https://github.com/cloudflare/boringtun"
+rev = "e3252d9c4f4c8fc628995330f45369effd4660a1"
+replace-with = "vendored-sources"
 
-[target.aarch64-apple-darwin]
-rustflags = [
-  "-C", "link-arg=-undefined",
-  "-C", "link-arg=dynamic_lookup",
-]
+[source."git+https://github.com/smoltcp-rs/smoltcp?rev=ef67e7b46cabf49783053cbf68d8671ed97ff8d4"]
+git = "https://github.com/smoltcp-rs/smoltcp"
+rev = "ef67e7b46cabf49783053cbf68d8671ed97ff8d4"
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
